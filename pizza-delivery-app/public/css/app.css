@@ -1,0 +1,16 @@
+body {
+  font-family: "Lato", sans-serif;
+  color: #232323;
+}
+
+nav li:last-child a {
+  background-color: #F3DBA5;
+}
+nav li:last-child a:hover {
+  background-color: darkgrey;
+}
+
+nav li a:hover {
+  transition: 0.3s ease-in-out;
+  color: orangered;
+}
