@@ -50,8 +50,8 @@
 
             <div>
                 <form action="" class="mt-12">
-                    <input class="border border-gray-400 p-2 w-1/2 mb-4" placeholder="Phone number" type="text">
-                    <textarea class="border border-gray-400 p-2 w-1/2" placeholder="Address"></textarea>
+                    <input type="tel" class="border border-gray-400 p-2 w-1/2 mb-4" required placeholder="Phone number" pattern="[0-9]{10}" maxlength="10">
+                    <textarea class="border border-gray-400 p-2 w-1/2" required placeholder="Address" minlength="10" maxlength="100"></textarea>
                     <div>
                     <button class="btn-primary px-6 py-2 border rounded-full font-bold mt-6" type="submit">Order</button>
                     </div>
